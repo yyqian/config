@@ -4,5 +4,6 @@
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "boundary",
     "editor.fontFamily": "'Consolas', 'Microsoft Yahei'",
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on"
 }
