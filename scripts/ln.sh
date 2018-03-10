@@ -20,3 +20,8 @@ FILE=".zshrc"
 TARGET_DIR="$HOME"
 rm $TARGET_DIR/$FILE
 ln -s $SOURCE_DIR/$FILE $TARGET_DIR/$FILE
+
+FILE="sources.list"
+TARGET_DIR="/etc/apt"
+sudo rm $TARGET_DIR/$FILE
+sudo ln -s $SOURCE_DIR/$FILE $TARGET_DIR/$FILE
