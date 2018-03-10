@@ -1,3 +1,22 @@
 #!/usr/bin/env sh
-CONFIG="~/work/ubuntu-config"
-rm ~/.config/Code/User/settings.json && ln -s $CONFIG/settings.json ~/.config/Code/User/settings.json
+SOURCE_DIR="$HOME/work/config"
+
+FILE="settings.json"
+TARGET_DIR="$HOME/.config/Code/User"
+rm $TARGET_DIR/$FILE
+ln -s $SOURCE_DIR/$FILE $TARGET_DIR/$FILE
+
+FILE=".gitconfig"
+TARGET_DIR="$HOME"
+rm $TARGET_DIR/$FILE
+ln -s $SOURCE_DIR/$FILE $TARGET_DIR/$FILE
+
+FILE=".vimrc"
+TARGET_DIR="$HOME"
+rm $TARGET_DIR/$FILE
+ln -s $SOURCE_DIR/$FILE $TARGET_DIR/$FILE
+
+FILE=".zshrc"
+TARGET_DIR="$HOME"
+rm $TARGET_DIR/$FILE
+ln -s $SOURCE_DIR/$FILE $TARGET_DIR/$FILE
