@@ -1,0 +1,8 @@
+{
+    "workbench.startupEditor": "none",
+    "vim.useCtrlKeys": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.fontFamily": "'Consolas', 'Microsoft Yahei'",
+    "editor.fontSize": 14
+}
