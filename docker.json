@@ -1,0 +1,10 @@
+{
+  "insecure-registries" : [
+    "local-dtr.patsnap.com"
+  ],
+  "debug" : true,
+  "experimental" : true,
+  "registry-mirrors" : [
+    "https://0cwp4tcn.mirror.aliyuncs.com"
+  ]
+}
