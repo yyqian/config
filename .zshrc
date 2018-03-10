@@ -92,3 +92,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias l='ls -Alh --time-style=long-iso --group-directories-first'
+alias gitsync='git add -A; git commit -m "auto-sync"; git push'
+alias e='exit'
+grepcurr () {
+  grep -nr $1 .
+}
+findcurr () {
+  find . -name $1
+}
