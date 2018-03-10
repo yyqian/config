@@ -15,3 +15,6 @@ pip install virtualenv
 # sudo visudo
 # %admin ALL=(ALL) NOPASSWD:ALL
 # %sudo ALL=(ALL:ALL) NOPASSWD:ALL
+
+# sudo vi /etc/default/keyboar
+# XKBOPTIONS="ctrl:nocaps"
