@@ -1,3 +1,5 @@
 [user]
 	email = yyqian
 	name = yyqian
+[push]
+	default = simple
